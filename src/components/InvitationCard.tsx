@@ -31,7 +31,7 @@ export default function InvitationCard({
       </span>
 
       <h1 className="mb-2 text-2xl font-bold text-slate-800 sm:text-3xl">
-        Wanna go to {EVENT.destination} with me? 🎢
+        Hi liki mama, Are you coming to {EVENT.destination} with me or not?
       </h1>
       <p className="mb-6 text-slate-500">
         I have a very important question for you...

@@ -17,18 +17,18 @@ export interface NoAttemptStage {
  */
 const STAGES: NoAttemptStage[] = [
   {
-    message: "Wanna go on a fun adventure with me? 🎢",
-    emoji: "🥺",
+    message: "Last one time ask permission to amma and say",
+    emoji: "😏",
     yesScale: 1,
   },
   {
-    message: "Are you sure? 😭",
+    message: "Are you sure? no😣",
     emoji: "🥹",
     yesScale: 1.08,
   },
   {
-    message: "Really? Think about the roller coasters! 🎢",
-    emoji: "😭",
+    message: "pakki really! No",
+    emoji: "😑",
     yesScale: 1.16,
   },
   {
@@ -37,12 +37,12 @@ const STAGES: NoAttemptStage[] = [
     yesScale: 1.25,
   },
   {
-    message: "Okay... but why are you running away from the No button? 😂",
+    message: "Okay... but why are you running away from the No button right pakki? 😂",
     emoji: "😂",
     yesScale: 1.35,
   },
   {
-    message: "At this point, I think you know the answer... 😏",
+    message: "At this point, I think you know the answer pakki... 😏",
     emoji: "😏",
     yesScale: 1.45,
   },
@@ -54,11 +54,11 @@ export function getStage(noAttempts: number): NoAttemptStage {
 }
 
 const NO_BUTTON_LABELS = [
-  "No 😭",
-  "No, really 😭",
+  "No",
+  "No, really",
   "Nope 🙅",
   "Still no? 🥲",
-  "Nuh-uh 😅",
+  "Nuh 😅",
   "Try again 😏",
 ];
 
